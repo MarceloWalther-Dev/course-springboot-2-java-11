@@ -13,7 +13,7 @@ import com.udemy.course.entities.Order;
 import com.udemy.course.service.OrderService;
 
 @RestController
-@RequestMapping(value = "/order")
+@RequestMapping(value = "/orders")
 public class OrderResource {
 	
 	@Autowired
